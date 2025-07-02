@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cookie Bingo</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+
+</head>
+
+<body>
+    <h1>Cookie Bingo</h1>
+    <div class="grid">
+        <div class="block">Fuck you Manie</div>
+        <div class="block">Toddler</div>
+        <div class="block">Munchkin</div>
+        <div class="block">My little baby</div>
+        <div class="block">no no no no no</div>
+        <div class="block">Well well well</div>
+        <div class="block">Leave me alone</div>
+        <div class="block">(Anything indian related)</div>
+        <div class="block">9</div>
+        <div class="block">10</div>
+        <div class="block">11</div>
+        <div class="block">12</div>
+        <div class="block">13</div>
+        <div class="block">14</div>
+        <div class="block">15</div>
+        <div class="block">16</div>
+    </div>
+
+    <script>
+        // Select all blocks
+        const blocks = document.querySelectorAll('.block');
+
+        // Add click event to each block
+        blocks.forEach(block => {
+            block.addEventListener('click', () => {
+                block.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
